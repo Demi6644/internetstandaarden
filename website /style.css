@@ -1,0 +1,144 @@
+/* css reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:brown;
+}
+
+h2 {
+    color: brown;
+    background-color: rgb(217, 176, 155);
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url();
+}
+
+header {        
+    background-color:rgb(217, 176, 155);
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI';
+    font-size: 2em;
+}
+
+nav{
+    background-color: rgb(217, 176, 155);
+    font-family: 'Segoe UI';
+    font-size: 2em;
+}
+
+main {
+    background: brown;
+    font-family: 'Segoe UI';
+    font-size: 2em;
+}
+
+p{
+    background: rgb(217, 176, 155);
+    font-family: 'Segoe UI';
+}
+
+
+
+footer { 
+    background: rgb(217, 176, 155);
+    font-family: 'Segoe UI';
+    font-size: 1.2em;
+}
+
+.center {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+nav {
+    background-color: brown;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color:brown;
+    overflow: hidden;
+  }
+  
+  /* Style of buttons */
+  .navbar a {
+    float: left;
+    color:rgb(217, 176, 155);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 500ms ease;
+  }
+  
+  /* Change the color on hover */
+  .navbar a:hover {
+    background-color: rgb(217, 176, 155);
+    color: brown;
+  }
+  
+  /* Add a color to the current page */
+  .navbar a.active {
+    background-color: rgb(217, 176, 155);
+    color:brown;
+  }
+
+  .photo-left {
+    float: left;
+    margin: 5px;
+  }
+
+  .photo-right {
+    float:right;
+  }
+
+  h3 {
+    color: rgb(217, 176, 155);
+  }
+
+  p {
+    color: brown;
+    font-size: 0.8em;
+  }
+  img {
+    border: 6px solid rgb(217, 176, 155);
+    padding: 5px;
+  }
+  
+  article {
+    background-color: brown;
+    padding-top: 3.2em;
+  }
+
+  .infobox {
+    width: 30%;
+    padding: 4px;
+    border: 1px solid brown;
+    background-color:rgb(217, 176, 155);
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxorder {
+    padding: 2em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction:inherit;
+    flex-wrap: wrap;
+  }
+
+
