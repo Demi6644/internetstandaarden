@@ -1,2 +1,0 @@
-# internetstandaarden
-cmd 
