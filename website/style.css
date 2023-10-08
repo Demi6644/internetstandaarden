@@ -89,9 +89,13 @@ nav a.active {
   margin-right: auto;
   flex-direction: row;
   display: inline-flex;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: left;
   flex: auto;
+}
+
+.infobox img {
+  width: 350px;
 }
 
 /* Makes sure the boxes stay ordered next to each other */
@@ -106,7 +110,7 @@ nav a.active {
 
 /* Hero Homepage Styling */
 .hero {
-  background-image: url('img/BullDogWebsiteBanner.jpeg');
+  background-image: url('BullDogWebsiteBanner.jpeg');
   height: 28em;
   background-size: cover;
   display: flex;
